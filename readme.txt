@@ -12,11 +12,21 @@ Enables the confirmation anchor functionality for all Gravity Forms on your site
 
 == Description ==
 
-Enables the confirmation anchor functionality for all Gravity Forms on your site.
+Enables the confirmation anchor functionality for all Gravity Forms on your site. This is done using the gform_confirmation_anchor filter.
 
-This plugin has no settings. Just enable the plugin, and the confirmation anchor will be enabled on all Gravity Forms.
+This plugin has no settings. Just enable the plugin. The confirmation anchor will be enabled on all Gravity Forms.
 
-For information on Gravity Forms anchors, or to learn how to enable the anchor only for specific forms, see the Gravity Forms official documentation.
+For information on Gravity Forms anchors, or to learn how to enable the anchor only for specific forms, please review Gravity Forms' official documentation.
+
+== Frequently Asked Questions ==
+
+= Are you or this plugin affiliated with Gravity Forms? =
+
+No. We just use this functionality a lot and put it into a plugin.
+
+= Do you provide support for Gravity Forms? =
+
+No, sorry! Please contact Gravity Forms directly for support with their plugin.
 
 == Changelog ==
 
