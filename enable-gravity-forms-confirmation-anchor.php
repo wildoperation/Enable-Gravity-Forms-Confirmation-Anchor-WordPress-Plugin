@@ -6,8 +6,8 @@
  * Version:         1.0.0
  * Author:          Wild Operation
  * Author URI:      https://wildoperation.com
- * License:         GPL-2.0+
- * License URI:     http://www.gnu.org/licenses/gpl-2.0.txt
+ * License:         GPLv3
+ * License URI:     https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:     enable-gravity-forms-confirmation-anchor
  *
  * @package WordPress
@@ -17,17 +17,17 @@
  */
 
 /* Abort! */
-if ( ! defined( 'WPINC' ) ) {
-	die;
+if (! defined('WPINC')) {
+    die;
 }
 
-require plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
+require plugin_dir_path(__FILE__) . 'vendor/autoload.php';
 
-new \WOEGFCA\Vendor\WOWPRB\WPPluginReviewBug( __FILE__ );
+new \WOEGFCA\Vendor\WOWPRB\WPPluginReviewBug(__FILE__);
 
 /**
  * Enable confirmation anchor on all forms.
  *
  * Reference: https://docs.gravityforms.com/gform_confirmation_anchor/
  */
-add_filter( 'gform_confirmation_anchor', '__return_true', 100 );
+add_filter('gform_confirmation_anchor', '__return_true', 100);

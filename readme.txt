@@ -5,7 +5,7 @@ Requires at least: 4.3.0
 Tested up to: 6.4
 Stable tag: 1.0.0
 Requires PHP: 7.3
-License: GPLv3 or later
+License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Enables the confirmation anchor functionality for all Gravity Forms on your site.
