@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     Enable Gravity Forms Confirmation Anchor
- * Plugin URI:      https://github.com/wildoperation/Enable-Gravity-Forms-Confirmation-Anchor-WordPress-Plugin
+ * Plugin URI:      https://wordpress.org/plugins/enable-gravity-forms-confirmation-anchor
  * Description:     Enables the confirmation anchor functionality for all Gravity Forms on your site.
  * Version:         1.0.0
  * Author:          Wild Operation
@@ -17,17 +17,17 @@
  */
 
 /* Abort! */
-if (! defined('WPINC')) {
-    die;
+if ( ! defined( 'WPINC' ) ) {
+	die;
 }
 
-require plugin_dir_path(__FILE__) . 'vendor/autoload.php';
+require plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
-new \WOEGFCA\Vendor\WOWPRB\WPPluginReviewBug(__FILE__);
+new \WOEGFCA\Vendor\WOWPRB\WPPluginReviewBug( __FILE__ );
 
 /**
  * Enable confirmation anchor on all forms.
  *
  * Reference: https://docs.gravityforms.com/gform_confirmation_anchor/
  */
-add_filter('gform_confirmation_anchor', '__return_true', 100);
+add_filter( 'gform_confirmation_anchor', '__return_true', 100 );
