@@ -3,7 +3,7 @@
         'name' => '__root__',
         'pretty_version' => 'dev-develop',
         'version' => 'dev-develop',
-        'reference' => 'f6a6071da1d6ba662d562d9a283f602f35f3f33e',
+        'reference' => '6f89a848bb9f857a5ec65c40d56d01ac63944860',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '__root__' => array(
             'pretty_version' => 'dev-develop',
             'version' => 'dev-develop',
-            'reference' => 'f6a6071da1d6ba662d562d9a283f602f35f3f33e',
+            'reference' => '6f89a848bb9f857a5ec65c40d56d01ac63944860',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -40,7 +40,7 @@
         'wildoperation/wp-plugin-review-bug' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '65a133dffbd20d0ef1e3e5a90db9e5dc878e0d7f',
+            'reference' => '83244e2d88b1754b7ee197363ff93e324c2cd162',
             'type' => 'library',
             'install_path' => __DIR__ . '/../wildoperation/wp-plugin-review-bug',
             'aliases' => array(
