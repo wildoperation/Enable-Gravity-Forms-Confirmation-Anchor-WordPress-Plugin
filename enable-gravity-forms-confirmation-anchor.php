@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name:     Enable Gravity Forms Confirmation Anchor
- * Plugin URI:      https://wordpress.org/plugins/enable-gravity-forms-confirmation-anchor
+ * Plugin URI:      https://github.com/wildoperation/Enable-Gravity-Forms-Confirmation-Anchor-WordPress-Plugin
  * Description:     Enables the confirmation anchor functionality for all Gravity Forms on your site.
- * Version:         1.0.1
+ * Version:         1.0.2
  * Author:          Wild Operation
  * Author URI:      https://wildoperation.com
  * License:         GPLv3
@@ -13,7 +13,7 @@
  * @package WordPress
  * @subpackage Enable Gravity Forms Confirmation Anchor
  * @since 1.0.0
- * @version 1.0.1
+ * @version 1.0.2
  */
 
 /* Abort! */
