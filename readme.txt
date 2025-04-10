@@ -2,8 +2,8 @@
 Contributors: wildoperation, timstl
 Tags: gravity forms, forms, filters, anchor, confirmation
 Requires at least: 4.3.0
-Tested up to: 6.7
-Stable tag: 1.0.2
+Tested up to: 6.8
+Stable tag: 1.0.3
 Requires PHP: 7.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -29,6 +29,9 @@ No. We just use this functionality a lot and put it into a plugin.
 No, sorry! Please contact Gravity Forms directly for support with their plugin.
 
 == Changelog ==
+= 1.0.3 =
+* WordPress 6.8 support
+
 = 1.0.2 =
 * WordPress 6.7 support
 

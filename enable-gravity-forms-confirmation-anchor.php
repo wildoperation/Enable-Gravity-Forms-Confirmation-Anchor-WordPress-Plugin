@@ -3,7 +3,7 @@
  * Plugin Name:     Enable Gravity Forms Confirmation Anchor
  * Plugin URI:      https://github.com/wildoperation/Enable-Gravity-Forms-Confirmation-Anchor-WordPress-Plugin
  * Description:     Enables the confirmation anchor functionality for all Gravity Forms on your site.
- * Version:         1.0.2
+ * Version:         1.0.3
  * Author:          Wild Operation
  * Author URI:      https://wildoperation.com
  * License:         GPLv3
@@ -13,7 +13,7 @@
  * @package WordPress
  * @subpackage Enable Gravity Forms Confirmation Anchor
  * @since 1.0.0
- * @version 1.0.2
+ * @version 1.0.3
  */
 
 /* Abort! */
@@ -23,15 +23,24 @@ if ( ! defined( 'WPINC' ) ) {
 
 require plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
-new \WOEGFCA\Vendor\WOWPRB\WPPluginReviewBug(
-	__FILE__,
-	'enable-gravity-forms-confirmation-anchor',
-	array(
-		'intro'            => __( 'You\'ve been using Enable Gravity Forms Confirmation Anchor for a while now. We\'d love your feedback!', 'enable-gravity-forms-confirmation-anchor' ),
-		'rate_link_text'   => __( 'Rate the plugin', 'enable-gravity-forms-confirmation-anchor' ),
-		'remind_link_text' => __( 'Remind me later', 'enable-gravity-forms-confirmation-anchor' ),
-		'nobug_link_text'  => __( 'Don\'t ask again', 'enable-gravity-forms-confirmation-anchor' ),
-	)
+/**
+ * Review request framework
+ */
+add_action(
+	'admin_init',
+	function () {
+		new \WOEGFCA\Vendor\WOWPRB\WPPluginReviewBug(
+			__FILE__,
+			'enable-gravity-forms-confirmation-anchor',
+			array(
+				'intro'            => __( 'You\'ve been using Enable Gravity Forms Confirmation Anchor for a while now. We\'d love your feedback!', 'enable-gravity-forms-confirmation-anchor' ),
+				'rate_link_text'   => __( 'Rate the plugin', 'enable-gravity-forms-confirmation-anchor' ),
+				'remind_link_text' => __( 'Remind me later', 'enable-gravity-forms-confirmation-anchor' ),
+				'nobug_link_text'  => __( 'Don\'t ask again', 'enable-gravity-forms-confirmation-anchor' ),
+			)
+		);
+	},
+	1
 );
 
 /**
