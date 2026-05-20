@@ -185,7 +185,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wildoperation/wp-plugin-review-bug.git",
+                "url": "https://github.com/wildoperation/wp-plugin-review-bug",
                 "reference": "57f6dcb1a5624c1c18ac2abfdc670e02f6ed0273"
             },
             "dist": {
@@ -209,10 +209,6 @@
             "keywords": [
                 "wordpress"
             ],
-            "support": {
-                "issues": "https://github.com/wildoperation/wp-plugin-review-bug/issues",
-                "source": "https://github.com/wildoperation/wp-plugin-review-bug/tree/develop"
-            },
             "time": "2025-04-10T12:56:39+00:00"
         }
     ],
